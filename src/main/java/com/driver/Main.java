@@ -8,12 +8,12 @@ public class Main {
   }
   public static class B extends A{
       public  String meth(){
-          return "Method is overriddin in Extended class B";
+          return "Method is overridden in Extended class B";
       }
   }
   public static void main(String [] args){
       B b=new B();
       String ans=b.meth();
-      System.out.println(ans);
+      //System.out.println(ans);
   }
 }
